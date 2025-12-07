@@ -23,35 +23,36 @@ Email: 22f2000771@ds.study.iitm.ac.in
 
 ## Overview
 
-This presentation covers the architectural updates and maintainability standards for the new software release.
+This presentation covers the architectural updates.
 
 * **Version Control:** Git-based workflow
-* **Format:** Markdown (Marp)
-* **Export:** PDF, HTML, PPTX
+* **Email:** 22f2000771@ds.study.iitm.ac.in
 
 ---
 
-# Global Infrastructure
+![bg](https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80)
 
-(This slide demonstrates a background image directive)
+<style scoped>
+h1 { color: white; text-shadow: 2px 2px 4px #000; }
+</style>
+
+# Global Infrastructure
 
 ---
 
 ## Algorithmic Complexity
 
-We have optimized the search query processing. The time complexity for the new indexing algorithm is defined as:
+Time complexity optimization:
 
 $$
 T(n) = O(n \log n) + \sum_{i=1}^{k} \frac{1}{i}
 $$
 
-Where $n$ is the dataset size and $k$ is the number of nodes.
+User ID: 22f2000771@ds.study.iitm.ac.in
 
 ---
 
 ## Custom Styled Slide
-
-This slide uses **local directives** to override the global theme settings.
 
 1.  Background is set to a light teal.
 2.  Text is set to a dark teal.
