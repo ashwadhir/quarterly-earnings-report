@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quarterly Earnings Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/league.css" id="theme">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+</head>
+<body>
+
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <h1>Q3 Financial Report</h1>
+            <h3>Technical Consultation Review</h3>
+            <p>
+                <small>Presented by: <a href="mailto:22f2000771@ds.study.iitm.ac.in">22f2000771@ds.study.iitm.ac.in</a></small>
+            </p>
+            
+            <aside class="notes">
+                Welcome stakeholders. Today we will review the Q3 technical and financial performance.
+                My contact email is on the screen for follow-up questions.
+            </aside>
+        </section>
+
+        <section data-markdown>
+            <textarea data-template>
+                ## Executive Summary
+                
+                * **Revenue:** Exceeded targets by 15%
+                * **Tech Migration:** Cloud transition 80% complete
+                * **Security:** Zero incidents reported
+                
+                This slide uses *Markdown* for rapid content generation.
+            </textarea>
+            <aside class="notes">
+                This content is rendered using the Markdown plugin. 
+                Highlight the 15% revenue increase as a key win.
+            </aside>
+        </section>
+
+        <section>
+            <h2>Growth Metrics</h2>
+            <p>Our strategic pillars for Q4:</p>
+            <ul>
+                <li class="fragment">Automation of Legacy Systems</li>
+                <li class="fragment">AI-Driven Risk Assessment</li>
+                <li class="fragment">Blockchain Integration for Settlements</li>
+            </ul>
+            <p class="fragment fade-up" style="color: #42affa; margin-top: 20px;">
+                <strong>Goal: Increase efficiency by 22%</strong>
+            </p>
+            
+            <aside class="notes">
+                Click "Next" to reveal each bullet point individually.
+                This keeps the audience focused on the specific topic being discussed.
+            </aside>
+        </section>
+
+        <section>
+            <h2>Algorithmic Trading Model</h2>
+            <p>Python implementation for the new risk model:</p>
+            <pre><code data-trim data-noescape class="language-python">
+def calculate_risk_exposure(portfolio_value, volatility):
+    """
+    Calculates VaR (Value at Risk)
+    """
+    confidence_level = 1.65  # 95% confidence
+    risk = portfolio_value * volatility * confidence_level
+    return risk
+
+# Q3 Portfolio Assessment
+current_risk = calculate_risk_exposure(1000000, 0.02)
+print(f"VaR: ${current_risk}")
+            </code></pre>
+            
+            <aside class="notes">
+                Point out the syntax highlighting. This demonstrates our technical capability 
+                to build custom financial models.
+            </aside>
+        </section>
+
+        <section>
+            <h2>Financial Formula</h2>
+            <p>We utilize the Black-Scholes model for option pricing:</p>
+            
+            \[
+            C = S_0 N(d_1) - K e^{-rT} N(d_2)
+            \]
+            
+            <p>Where $d_1$ is defined as:</p>
+            
+            \[
+            d_1 = \frac{\ln(S_0/K) + (r + \sigma^2/2)T}{\sigma \sqrt{T}}
+            \]
+
+            <aside class="notes">
+                These equations are rendered using the MathJax plugin.
+                Explain that S0 is the current stock price and K is the strike price.
+            </aside>
+        </section>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+<script>
+    // Initialize Reveal with dependencies
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+    });
+</script>
+
+</body>
+</html>
